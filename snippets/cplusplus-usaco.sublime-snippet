@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+
+ifstream fin("problemname.in");
+ofstream fout("problemname.out");
+
+void solve() {
+    
+}
+
+int main(void) {
+    
+}
+]]></content>
+    <tabTrigger>usaco-c++</tabTrigger>
+    <scope>source.c++, source.objc++</scope>
+</snippet>
