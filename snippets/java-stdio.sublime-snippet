@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+import java.io.*;
+import java.util.*;
+
+public class ${TM_FILENAME/(.+)\..+|.*/$1/:name} {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+    }
+}
+]]></content>
+    <tabTrigger>java-stdio-basic</tabTrigger>
+    <scope>source.java</scope>
+</snippet>
