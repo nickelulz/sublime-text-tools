@@ -1,0 +1,12 @@
+{
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c++",
+
+    "target": "terminus_exec",
+    "cancel": "terminus_cancel_build",
+
+    "auto_close": false,
+    "shell_cmd": "rm -f \"${file_base_name}\" && g++ \"${file}\" -o \"${file_path}/${file_base_name}\" -std=c++17 -O2 -lm && \"${file_path}/${file_base_name}\" && rm -f \"${file_base_name}\"",
+    "working_dir": "$folder"
+}
